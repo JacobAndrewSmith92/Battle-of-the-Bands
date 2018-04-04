@@ -24,8 +24,9 @@ Your job is to write a function that accepts any band name as an argument. The f
 //  let otherBand = bandOrder("Dr. Dog");
 //  let thirdBand = bandOrder("What's up");
 
+//global counter for list of bands
 let listOfBands = 0;
-
+// function that orders bands 1., 2., 3., etc.
 function bandOrder(bName) {
     listOfBands++
     let bandName = `${listOfBands}. ${bName} .`;
